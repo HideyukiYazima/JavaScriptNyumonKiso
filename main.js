@@ -42,14 +42,38 @@ console.log(price * 140 * rate);
 // console.log('My name is ' + fname + ' ' + lname + ', call me ' + fname + '!');
 // console.log(`My name is ${fname} ${lname}, call me ${fname}!`);
 
-const score = Number(prompt('Scorer?'));
+// const score = Number(prompt('Scorer?'));
 
-if (score >= 90) {
-  console.log('A!');
-} else if (score >= 70) {
-  console.log('B!');
-} else {
-  console.log('C!');
+// if (score >= 90) {
+//   console.log('A!');
+// } else if (score >= 70) {
+//   console.log('B!');
+// } else {
+//   console.log('C!');
+// }
+
+// switch文
+// const color = prompt('Color?')
+
+// switch (color) {
+//   case 'red':
+//     console.log('Stop!');
+//     break;
+//   case 'yellow':
+//     console.log('Slow down!');
+//     break;
+//   case 'blue':
+//   case 'green':
+//     console.log('Go!');
+//     break;
+//   default:
+//     console.log('Wrong color');
+//     break;
+// }
+
+// for文による反復処理
+
+for (let i = 0; i < 3; i++) {
+  // console.log('Hello');
+  console.log(`${i}: Hello`);
 }
-
-
