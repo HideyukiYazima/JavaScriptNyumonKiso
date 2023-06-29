@@ -28,3 +28,8 @@ price++;
 console.log(price * 120 * rate);
 console.log(price * 130 * rate);
 console.log(price * 140 * rate);
+
+// 文字列
+// console.log('It\'s a pen.');
+// console.log("It's a pen.");
+console.log("It's \na \npen.");
