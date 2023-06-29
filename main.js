@@ -32,4 +32,24 @@ console.log(price * 140 * rate);
 // 文字列
 // console.log('It\'s a pen.');
 // console.log("It's a pen.");
-console.log("It's \na \npen.");
+// console.log("It's \na \npen.");
+
+// My name is Taro Yamada, call me Taro!
+
+// const fname = 'Taro';
+// const lname = 'Yamada';
+
+// console.log('My name is ' + fname + ' ' + lname + ', call me ' + fname + '!');
+// console.log(`My name is ${fname} ${lname}, call me ${fname}!`);
+
+const score = Number(prompt('Scorer?'));
+
+if (score >= 90) {
+  console.log('A!');
+} else if (score >= 70) {
+  console.log('B!');
+} else {
+  console.log('C!');
+}
+
+
