@@ -1,33 +1,33 @@
 'use strict';
 
-console.log(10 + 3); // 13
-console.log(10 - 3); // 7
-console.log(10 * 3); // 30
-console.log(10 ** 3); // 1000
-console.log(10 / 3); // 3.3333....
-console.log(10 % 3); // 1
+// console.log(10 + 3); // 13
+// console.log(10 - 3); // 7
+// console.log(10 * 3); // 30
+// console.log(10 ** 3); // 1000
+// console.log(10 / 3); // 3.3333....
+// console.log(10 % 3); // 1
 
-console.log(10 + 2 * 3); // 16
-console.log((10 + 2) * 3); // 36
+// console.log(10 + 2 * 3); // 16
+// console.log((10 + 2) * 3); // 36
 
 
-// 変数
-let price;
-// 定数
-const rate = 1.1;
+// // 変数
+// let price;
+// // 定数
+// const rate = 1.1;
 
-price = 150;
-console.log(price * 120 * rate);
-console.log(price * 130 * rate);
-console.log(price * 140 * rate);
+// price = 150;
+// console.log(price * 120 * rate);
+// console.log(price * 130 * rate);
+// console.log(price * 140 * rate);
 
-// price = 151;
-// price = price + 1;
-price += 1;
-price++;
-console.log(price * 120 * rate);
-console.log(price * 130 * rate);
-console.log(price * 140 * rate);
+// // price = 151;
+// // price = price + 1;
+// price += 1;
+// price++;
+// console.log(price * 120 * rate);
+// console.log(price * 130 * rate);
+// console.log(price * 140 * rate);
 
 // 文字列
 // console.log('It\'s a pen.');
@@ -73,7 +73,17 @@ console.log(price * 140 * rate);
 
 // for文による反復処理
 
-for (let i = 0; i < 3; i++) {
-  // console.log('Hello');
-  console.log(`${i}: Hello`);
+// for (let i = 0; i < 3; i++) {
+//   // console.log('Hello');
+//   console.log(`${i}: Hello`);
+// }
+
+// forの中にforを入れた文
+const rate = 1.1;
+
+for (let price = 150; price <= 160; price++) {
+  console.log(`Price: ${price}`);
+  for (let amount = 120; amount <= 140; amount+=10) {
+    console.log(price * amount * rate);
+  }
 }
