@@ -111,15 +111,19 @@
 // } while (command !== 0);
 
 
-let amount = 100;
+// let amount = 100;
 
-for (let year = 1; year <= 30; year++) {
-  amount *= 1.05;
-  if (amount < 200) {
-    continue;
-  }
-  if (amount > 300) {
-    break;
-  }
-  console.log(`Year ${year}: ${amount}`);
-}
+// for (let year = 1; year <= 30; year++) {
+//   amount *= 1.05;
+//   if (amount < 200) {
+//     continue;
+//   }
+//   if (amount > 300) {
+//     break;
+//   }
+//   console.log(`Year ${year}: ${amount}`);
+// }
+
+const score = Number(prompt('Score?'));
+const result = score > ? 'A' : 'B';
+console.log(result);
