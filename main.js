@@ -124,6 +124,28 @@
 //   console.log(`Year ${year}: ${amount}`);
 // }
 
-const score = Number(prompt('Score?'));
-const result = score > ? 'A' : 'B';
-console.log(result);
+// const score = Number(prompt('Score?'));
+// const result = score > ? 'A' : 'B';
+// console.log(result);
+
+// const english = Number(prompt('English?'));
+// const math = Number(prompt('math?'));
+
+// if (english >= 80 && math > 80) {
+//   console.log('A')
+// } else {
+//   console.log('B')
+// }
+
+// let x =10;
+
+// {
+//   let x = 20;
+//   console.log(x); // 20
+// }
+
+// console.log(x); // 10
+{
+  let x = 10;
+  console.log(x);
+}
